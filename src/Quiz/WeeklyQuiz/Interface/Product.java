@@ -10,4 +10,16 @@ public class Product implements Promotion {
         this.price = price;
         this.weight = weight;
     }
+
+    int getPrice() {
+        return this.price;
+    }
+
+    int getWeight() {
+        return this.weight;
+    }
+
+    public int getDiscountAmount() {
+        return 0;
+    }
 }
