@@ -10,6 +10,7 @@ public class Grocery extends Product {
 
     // Grocery 할인 가격 반환
     public int getDiscountAmount() {
-        return this.discountAmount;
+        int result = (this.getWeight() / 3) * this.discountAmount;
+        return result;
     }
 }

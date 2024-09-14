@@ -10,6 +10,7 @@ public class Beauty extends Product {
 
     // Beauty 할인 가격 반환
     public int getDiscountAmount() {
-        return this.discountAmount;
+        int result = (this.getWeight() / 2) * this.discountAmount;
+        return result;
     }
 }
