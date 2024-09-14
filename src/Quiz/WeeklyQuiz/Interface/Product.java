@@ -11,14 +11,17 @@ public class Product implements Promotion {
         this.weight = weight;
     }
 
+    // 제품 가격 반환
     int getPrice() {
         return this.price;
     }
 
+    // 제품 무게 반환
     int getWeight() {
         return this.weight;
     }
 
+    // 제품 할인 가격 반환
     public int getDiscountAmount() {
         return 0;
     }
