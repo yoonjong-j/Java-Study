@@ -51,6 +51,6 @@ public class Cart {
 
         Cart cart = new Cart(new Product[] {beauty, grocery, largeAppliance});
         int totalDeliveryCharge = cart.calculateDeliveryCharge();
-        System.out.println("배송비 : " + totalDeliveryCharge + " 원"); // 배송비 : 9000 원
+        System.out.println("배송비 : " + totalDeliveryCharge); // 배송비 : 9000
     }
 }
