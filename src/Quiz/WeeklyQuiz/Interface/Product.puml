@@ -24,11 +24,13 @@ class Cart {
 class Grocery extends Product {
     int discountAmount
     Grocery(String name, int price, int weight)
+    int getDiscountAmount()
 }
 
 class Beauty extends Product {
     int discountAmount
     Beauty(String name, int price, int weight)
+    int getDiscountAmount()
 }
 
 class LargeAppliance extends Product {
