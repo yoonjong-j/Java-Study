@@ -5,7 +5,7 @@ public class Beauty extends Product {
 
     Beauty(String name, int price, int weight) {
         super(name, price, weight);
-        this.discountAmount = 10000; // Beauty 할인 가격 초기화
+        this.discountAmount = 10_000; // Beauty 할인 가격 초기화
     }
 
     // Beauty 할인 가격 반환
