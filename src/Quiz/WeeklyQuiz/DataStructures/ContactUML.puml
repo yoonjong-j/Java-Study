@@ -1,8 +1,22 @@
 @startuml
 
-class Contact
-class BusinessContact extends Contact
-class PersonalContact extends Contact
+class Contact {
+    String name
+    String phoneNumber
+    Contact(String name, String phoneNumber)
+    String getName()
+    String getPhoneNumber()
+}
+class BusinessContact extends Contact {
+    String company
+    BusinessContact(String name, String phoneNumber, String company)
+    String getCompany()
+}
+class PersonalContact extends Contact {
+    String relationship
+    PersonalContact(String name, String phoneNumber, String relationship)
+    String getRelationship()
+}
 class AddressBook
 
 @enduml
