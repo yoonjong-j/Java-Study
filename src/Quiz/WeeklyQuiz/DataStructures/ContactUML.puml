@@ -17,6 +17,13 @@ class PersonalContact extends Contact {
     PersonalContact(String name, String phoneNumber, String relationship)
     String getRelationship()
 }
-class AddressBook
+class AddressBook {
+    List<Contact> contacts
+    AddressBook()
+    void addContact(Contact contact)
+    void displayContacts()
+    void searchContact(String name)
+    void main(String[] args)
+}
 
 @enduml
